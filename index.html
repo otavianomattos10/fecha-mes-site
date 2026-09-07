@@ -17,6 +17,7 @@
     />
     <meta property="og:image" content="creative-01-seu-mes-sem-confusao.jpg" />
     <title>Fecha Mês — controle financeiro simples</title>
+    <script src="campaign-links.js" defer></script>
     <style>
       :root {
         color-scheme: light;
@@ -51,6 +52,10 @@
 
       a {
         color: inherit;
+      }
+
+      img {
+        height: auto;
       }
 
       .hero {
@@ -145,6 +150,36 @@
         color: rgba(255, 255, 255, 0.88);
         font-size: 0.96rem;
         font-weight: 650;
+      }
+
+      .free-note {
+        margin: 16px 0 0;
+        max-width: 36rem;
+        font-size: 1.05rem;
+        color: #fff;
+      }
+
+      .free-note strong {
+        display: block;
+      }
+
+      .image-link {
+        display: block;
+        width: 100%;
+        line-height: 0;
+        border-radius: 28px;
+      }
+
+      .hero-art {
+        max-width: 500px;
+        justify-self: end;
+      }
+
+      .image-link:focus-visible,
+      .cta:focus-visible,
+      footer a:focus-visible {
+        outline: 4px solid #ffbf47;
+        outline-offset: 5px;
       }
 
       .hero-image {
@@ -286,7 +321,8 @@
           padding-top: 24px;
         }
 
-        .hero-image {
+        .hero-image,
+        .hero-art {
           max-width: 560px;
           justify-self: center;
         }
@@ -369,18 +405,25 @@
             </p>
             <a
               class="cta"
-              href="https://apps.apple.com/br/app/fecha-m%C3%AAs/id6758546862"
+              data-app-store
+              href="https://apps.apple.com/br/app/fecha-m%C3%AAs/id6758546862?pt=128504330&amp;ct=fm_ios_site_v2_202609&amp;mt=8"
               rel="noopener"
             >
-              Baixar grátis na App Store
+              Baixar grátis no iPhone
             </a>
+            <p class="free-note"><strong>Controle mensal gratuito.</strong>PRO opcional: compra única, sem assinatura.</p>
             <p class="trust">Sem login • Sem conectar banco • Para iOS 15 ou posterior</p>
           </div>
-          <img
-            class="hero-image"
-            src="creative-01-seu-mes-sem-confusao.jpg"
-            alt="Tela do Fecha Mês mostrando saldo, contas a pagar e valores a receber"
-          />
+          <a class="image-link hero-art" data-app-store
+            href="https://apps.apple.com/br/app/fecha-m%C3%AAs/id6758546862?pt=128504330&amp;ct=fm_ios_site_v2_202609&amp;mt=8"
+            aria-label="Baixar Fecha Mês grátis na App Store — visão do saldo mensal">
+            <img
+              class="hero-image"
+              src="creative-01-seu-mes-sem-confusao.jpg"
+              alt="Tela do Fecha Mês mostrando saldo, contas a pagar e valores a receber"
+              width="1080" height="1350"
+            />
+          </a>
         </div>
       </div>
     </header>
@@ -419,16 +462,24 @@
             <p>Textos grandes, ações diretas e uma visão mensal fácil de entender.</p>
           </div>
           <div class="gallery">
-            <img
-              src="creative-01-seu-mes-sem-confusao.jpg"
-              alt="Visão geral do saldo mensal no Fecha Mês"
-              loading="lazy"
-            />
-            <img
-              src="creative-02-nao-digite-tudo-de-novo.jpg"
-              alt="Recurso para preparar contas e recebimentos do próximo mês"
-              loading="lazy"
-            />
+            <a class="image-link" data-app-store
+              href="https://apps.apple.com/br/app/fecha-m%C3%AAs/id6758546862?pt=128504330&amp;ct=fm_ios_site_v2_202609&amp;mt=8"
+              aria-label="Baixar Fecha Mês grátis na App Store — saldo e contas">
+              <img
+                src="creative-01-seu-mes-sem-confusao.jpg"
+                alt="Visão geral do saldo mensal no Fecha Mês"
+                loading="lazy" width="1080" height="1350"
+              />
+            </a>
+            <a class="image-link" data-app-store
+              href="https://apps.apple.com/br/app/fecha-m%C3%AAs/id6758546862?pt=128504330&amp;ct=fm_ios_site_v2_202609&amp;mt=8"
+              aria-label="Baixar Fecha Mês grátis na App Store — copiar contas para o próximo mês">
+              <img
+                src="creative-02-nao-digite-tudo-de-novo.jpg"
+                alt="Recurso para preparar contas e recebimentos do próximo mês"
+                loading="lazy" width="1080" height="1350"
+              />
+            </a>
           </div>
         </div>
       </section>
@@ -442,7 +493,8 @@
             </div>
             <a
               class="cta"
-              href="https://apps.apple.com/br/app/fecha-m%C3%AAs/id6758546862"
+              data-app-store
+              href="https://apps.apple.com/br/app/fecha-m%C3%AAs/id6758546862?pt=128504330&amp;ct=fm_ios_site_v2_202609&amp;mt=8"
               rel="noopener"
             >
               Abrir na App Store
